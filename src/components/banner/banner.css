@@ -1,0 +1,44 @@
+
+
+.clientesBanner{
+	display: flex;
+	flex-direction: row;
+}
+
+.clientesBanner div{
+	background-color:var(--blueLogo2);
+	color: var(--gray-200);
+	font-size: 20px;
+	font-weight:700;
+	font-style: italic;
+	width: 25%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	padding: 20px 0 40px 0;
+}
+
+.clientesBanner div img{
+	width: 40%;
+	margin: auto;
+}
+
+.clientesBanner span{
+	font-size: 100px;
+}
+
+
+
+
+@media(max-width:1000px){
+	.clientes>div{
+		font-size: 20px;
+	}
+	.clientesBanner{
+		flex-direction: column;
+		width: 100%;
+	}
+	.clientesBanner div{
+		width: 100%;
+	}
+}

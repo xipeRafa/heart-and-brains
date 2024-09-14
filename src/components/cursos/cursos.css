@@ -1,0 +1,13 @@
+.curso{
+	width: 48%;
+	margin-right: 1%;
+	margin-bottom: 100px;
+}
+
+
+
+@media(max-width:1000px){
+	.curso{
+		width: 100%;
+	}
+}

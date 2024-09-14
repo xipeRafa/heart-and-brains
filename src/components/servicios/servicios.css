@@ -1,0 +1,35 @@
+.servicios1{
+  padding: 10px;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 20px;
+  background-color: white;
+  padding: 30px;
+  box-shadow: rgba(40, 40, 90, 0.20) 0px -50px 36px -28px inset;
+  color: var(--gray-700)
+}
+
+.servicios1>span{
+  color: var(--blueLogo);
+}
+
+@media(max-width:900px){
+  .servicios1{
+    font-size: 19px;
+  }
+}
+
+
+.leerMas{
+  color: var(--blue);
+  margin-left: 10px;
+  font-size: 12px;
+/*  background-color: rgba(0, 0, 0, .1);*/
+  padding: 2px 2px 0 2px;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.d-node{
+  display:none;
+}
