@@ -25,13 +25,13 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path="/mariela/servicios" element={<Servicios />} />
-        <Route path="/mariela/" element={<Header />} />
+        <Route path="/heart-and-brains/servicios" element={<Servicios />} />
+        <Route path="/heart-and-brains/" element={<Header />} />
         {/*<Route path="/RealControlF/tipos" element={<Tipos />} />*/}
-        <Route path="/mariela/licencias" element={<Licencias />} />
-        <Route path="/mariela/clientes" element={<Clientes />} />
-         <Route path="/mariela/cursos" element={<Cursos />} />
-        <Route path="/mariela/contacto" element={<Contacto />} />
+        <Route path="/heart-and-brains/licencias" element={<Licencias />} />
+        <Route path="/heart-and-brains/clientes" element={<Clientes />} />
+         <Route path="/heart-and-brains/cursos" element={<Cursos />} />
+        <Route path="/heart-and-brains/contacto" element={<Contacto />} />
 
         <Route path="*" element={<Header />} />
       </Routes>
