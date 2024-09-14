@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "https://xipeRafa.github.io/hearts-and-brains"
+  base: "https://xipeRafa.github.io/heart-and-brains"
 })
