@@ -29,19 +29,19 @@ export default function Navbar() {
             <div className={isActive ? "menu " : "menu display"} onClick={InWidth}>
 
 
-                <NavLink to="/mariela" onClick={()=>window.scrollTo(0,0)}> Inicio </NavLink>
+                <NavLink to="/heart-and-brains" onClick={()=>window.scrollTo(0,0)}> Inicio </NavLink>
 
-                <NavLink to="/mariela/servicios" onClick={()=>window.scrollTo(0,0)}> Soy una OSC y quiero crecer</NavLink>
+                <NavLink to="/heart-and-brains/servicios" onClick={()=>window.scrollTo(0,0)}> Soy una OSC y quiero crecer</NavLink>
 
                 {/*<NavLink to="/RealControlF/tipos" onClick={()=>window.scrollTo(0,0)}> Tipos de Plagas </NavLink>*/}
 
-                <NavLink to="/mariela/licencias" onClick={()=>window.scrollTo(0,0)}> Quiero empezar una OSC </NavLink>
+                <NavLink to="/heart-and-brains/licencias" onClick={()=>window.scrollTo(0,0)}> Quiero empezar una OSC </NavLink>
 
-                <NavLink to="/mariela/clientes" onClick={()=>window.scrollTo(0,0)}> Quiero ayudar a una Fundación </NavLink>
+                <NavLink to="/heart-and-brains/clientes" onClick={()=>window.scrollTo(0,0)}> Quiero ayudar a una Fundación </NavLink>
 
-                <NavLink to="/mariela/cursos" onClick={()=>window.scrollTo(0,0)}>Capacitaciones  </NavLink>
+                <NavLink to="/heart-and-brains/cursos" onClick={()=>window.scrollTo(0,0)}>Capacitaciones  </NavLink>
 
-                <NavLink to="/mariela/contacto" onClick={()=>window.scrollTo(0,0)}> Contacto </NavLink>
+                <NavLink to="/heart-and-brains/contacto" onClick={()=>window.scrollTo(0,0)}> Contacto </NavLink>
 
 
 
